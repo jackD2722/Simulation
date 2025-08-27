@@ -12,3 +12,10 @@ __pycache__/
 
 # macOS system files
 .DS_Store
+
+# Docker files (optional: keep your Dockerfile tracked)
+# Ignore only generated Docker temp files if any
+*.dockerfile.tmp
+
+# Other temp files
+*.log
